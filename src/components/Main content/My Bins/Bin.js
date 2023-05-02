@@ -1,5 +1,6 @@
 import "./Bin.css"
 import binImage from '../../../images/binImage.png'
+import comp from '../../../images/comp.png'
 import clock from '../../../images/clock.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -10,7 +11,7 @@ function Bin({ name, fillDegree, estimate }) {
     return (
         <div className="binItemContainer">
             <p className="binTitle">{name}</p>
-            <img className="binImage" src={binImage}></img>
+            <img className="binImage" src={comp}></img>
 
             <div className="estimateSection">
                 <div className="estimateItem">

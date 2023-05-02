@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.binImage {
+  max-width: 200px;
+}
+
 /* Estimate and "filling degree" section */
 .estimateSection {
   margin-top: 20px;
